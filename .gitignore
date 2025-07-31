@@ -1,0 +1,7 @@
+dist/
+.zed/
+.idea/
+.vscode/
+
+*.log
+.env
