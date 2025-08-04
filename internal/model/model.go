@@ -7,7 +7,7 @@ func AutoMigrate(tx *gorm.DB) error {
 		&User{},
 		&Role{},
 		&Permission{},
-		&Profiles{},
+		&Profile{},
 	); err != nil {
 		return err
 	}
